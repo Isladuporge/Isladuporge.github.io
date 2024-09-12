@@ -40,6 +40,10 @@ body {
     color: cornflowerblue;
 }
 
+.link {
+    color: cornflowerblue;
+}
+
 .footer {
     display: inline-block;
     white-space: nowrap;
@@ -124,4 +128,9 @@ body {
     text-align: justify;
     margin-bottom: 1.25rem;
     margin-top: calc(10vh - 1.5rem);
+}
+
+.text-indent {
+    margin-left: 1.5rem;
+    display: block;
 }
