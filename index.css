@@ -96,16 +96,22 @@ body {
 
 .main-video {
     height: 45vh;
+    max-width: 95vw;
 }
 
 .main-video-embed {
     height: 100%;
+    max-width: 95vw;
+    object-fit: contain;
     aspect-ratio: 16/9;
     background-color: black;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.main-video-embed iframe {
+    max-width: 95vw;
 }
 
 .main-video-embed img {
@@ -115,6 +121,7 @@ body {
 
 .about-text {
     width: 65ch;
+    max-width: 95vw;
     text-align: justify;
     font-size: 0.75rem;
 }
@@ -125,6 +132,7 @@ body {
 
 .video-text {
     width: 90ch;
+    max-width: 95vw;
     text-align: justify;
     margin-bottom: 1.25rem;
     margin-top: calc(10vh - 1.5rem);
@@ -133,4 +141,23 @@ body {
 .text-indent {
     margin-left: 1.5rem;
     display: block;
+}
+
+
+@media screen and (max-width:1000px){
+    .app{
+        padding:5rem 2.5vw;
+    }
+    .footer {
+        display:none;
+    }
+    .centre {
+        flex-direction: column;
+    }
+    /* .about-text {
+        width:35ch;
+    }
+    .video-text {
+        width:35ch;
+    } */
 }
