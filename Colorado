@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <title>South Africa Bela Bela</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>Isla Camille Duporge</h1>
+        </header>
+        <div class="centre">
+            <div class="centre-left">
+                <div>
+                    <div>
+                        <a href="./index.html" class="nav-button">HOME</a>
+                    </div>
+                    <div>
+                        <button id="expeditions-drop-one-button" class="nav-button">SCIENTIFIC WORK</button>
+                        <div class="expeditions-drop-one" id="expeditions-drop-one">
+                            <div>
+                                <button id="expeditions-drop-two-button"
+                                    class="nav-button expeditions-drop-two-button">TERRESTRIAL</button>
+                                <div class="expeditions-drop-two" id="expeditions-drop-two">
+                                   
+                                    <a href="./southafrica.html"
+                                        class="nav-button expeditions-drop-two-button-sub">South Africa</a>
+                                    <a href="./laikipiakenya.html"
+                                        class="nav-button expeditions-drop-two-button-sub">Kenya</a>
+                                        <a href="./simalahazambia.html" class="nav-button expeditions-drop-two-button-sub">Zambia</a>
+                                    </div>
+                            </div>
+                            <div>
+                                <button id="expeditions-drop-three-button"
+                                    class="nav-button expeditions-drop-three-button">MARINE</button>
+                                <div class="expeditions-drop-three" id="expeditions-drop-three">
+                                    <a href="./saudiarabia.html"
+                                        class="nav-button expeditions-drop-three-button-sub">Saudi Arabia</a>
+                                    <a href="./arctic.html"
+                                        class="nav-button expeditions-drop-three-button-sub">Arctic</a>
+                                    <a href="./brazilubatuba.html"
+                                        class="nav-button expeditions-drop-three-button-sub">Brazil</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="./publications.html" class="nav-button">PUBLICATIONS</a>
+                    </div>
+                    <div>
+                        <a href="./contact.html" class="nav-button">CONTACT</a>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <p>&copy; Isla Duporge 2025</p>
+                </footer>
+            </div>
+            <div>
+                <div class="main-video">
+                    <div class="main-video-embed">
+                        <a href="Onorbit.png" target="_blank">
+                        <img src="./photos/Onorbit.png" alt="">
+                        </a>
+                    </div>
+                <div class="video-text">
+                   <p>
+                       We have been using very high-resolution (30 cm) imagery from the WorldView-3 satellite to track whales in regions where traditional surveys are challenging, including breeding Southern Right Whales off Southern Africa (image on left) and Beluga whales in the Canadian Arctic (image on right). By training automated detection models (YOLOv12), we can identify individual whales in satellite images, even in remote or ice-covered waters. Because training data are limited, we generate synthetic examples using diffusion models to improve detection accuracy. This approach has the potential to support population assessments, track seasonal movements, and reduce risks from threats such as ship strikes and industrial activity. An academic paper reporting our findings on improving detection performance using diffusion models is forthcoming.  
+ <p>
+                </div>
+            </div>
+            <script src="./index.js"></script>
+
+</body>
+
+</html>
