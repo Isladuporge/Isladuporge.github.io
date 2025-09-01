@@ -12,9 +12,9 @@ expeditionsDropTwoButton.onclick = () => {
 expeditionsDropTwo.style.display = "flex"
 }
 
-const expeditionsDropFour = document.getElementById("expeditions-drop-four")
-const expeditionsDropFourButton = document.getElementById("expeditions-drop-four-button")
+const expeditionsDropThree = document.getElementById("expeditions-drop-three")
+const expeditionsDropThreeButton = document.getElementById("expeditions-drop-four-three")
 
-expeditionsDropFourButton.onclick = () => {
-expeditionsDropFour.style.display = "flex"
+expeditionsDropThreeButton.onclick = () => {
+expeditionsDropThree.style.display = "flex"
 }
