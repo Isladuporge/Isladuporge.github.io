@@ -13,7 +13,7 @@ expeditionsDropTwo.style.display = "flex"
 }
 
 const expeditionsDropThree = document.getElementById("expeditions-drop-three")
-const expeditionsDropThreeButton = document.getElementById("expeditions-drop-four-three")
+const expeditionsDropThreeButton = document.getElementById("expeditions-drop-three-button")
 
 expeditionsDropThreeButton.onclick = () => {
 expeditionsDropThree.style.display = "flex"

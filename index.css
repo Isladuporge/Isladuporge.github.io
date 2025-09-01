@@ -7,6 +7,10 @@ body {
 
 }
 
+i {
+  font-style: italic;  
+}
+
 .app {
     padding: 5rem 17.5vw;
 }
@@ -59,6 +63,10 @@ body {
     flex-direction: column;
 }
 
+.expeditions-drop-three {
+    display: none;
+    flex-direction: column;
+}
 .expeditions-drop-two-button {
     margin-left: 1.5rem;
     margin-bottom: 0.25rem;
@@ -72,6 +80,10 @@ body {
 .expeditions-drop-two-button-sub {
     margin-left: 2.5rem;
     margin-bottom: 0.15rem;
+}
+.expeditions-drop-three-button-sub{
+    margin-left: 2.5rem;
+    margin-bottom: 0.15rem
 }
 
 .expeditions-drop-four {
@@ -124,7 +136,7 @@ body {
 }
 
 .about-text {
-    width: 65ch;
+    width: 110ch;
     max-width: 95vw;
     text-align: justify;
     font-size: 0.75rem;
