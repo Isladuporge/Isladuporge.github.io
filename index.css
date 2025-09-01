@@ -136,10 +136,10 @@ i {
 }
 
 .about-text {
-    width: 95ch;
+    width: 90ch;
     max-width: 95vw;
     text-align: justify;
-    font-size: 0.75rem;
+    font-size: 1.0rem;
 }
 
 .about-text p {
