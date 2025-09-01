@@ -136,14 +136,14 @@ i {
 }
 
 .about-text {
-    width: 110ch;
+    width: 115ch;
     max-width: 95vw;
     text-align: justify;
     font-size: 0.75rem;
 }
 
 .about-text p {
-    margin: 1.5rem;
+    margin: 1.0rem;
 }
 
 .video-text {
